@@ -2,7 +2,7 @@
 require 'sinatra'
 
 get '/' do
-  "Hello world"
+  "Hello Bella and Mateo!"
 end
 
 
