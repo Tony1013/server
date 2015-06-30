@@ -2,7 +2,7 @@
 require 'sinatra'
 
 get '/' do
-  "Hello Bella and Mateo!"
+  File.open("public/hello.txt").read
 end
 
 
