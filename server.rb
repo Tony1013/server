@@ -2,7 +2,7 @@
 require 'sinatra'
 
 get '/' do
-  File.open("public/hello.txt").read
+  File.open("public/AT.html").read
 end
 
 
@@ -11,7 +11,7 @@ get '/wyncode' do
 end
 
 get '/hello' do
-	"Hello Bella and Mateo!"
+	"Hello Bella!"
 end
 
 	
