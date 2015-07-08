@@ -29,7 +29,7 @@ intro {
 
   /* these will reset other properties, like background-position, but it does know what you mean */
   background: wheat;
-  background: linear-gradient(black, powderblue);
+  background: linear-gradient(darkslategrey, grey);
 }
 
 h1 {
@@ -112,6 +112,13 @@ h3 {
 
 }
 
+ul {
+  border-top: 1px solid beige;
+  padding-top: 29px;
+  width: 40%;
+  margin: 0 auto;
+
+}
 
 li {
   display: inline;
@@ -122,36 +129,33 @@ li {
 
 }
 
-.links{
-  padding-bottom: 30px;
+a {
+  text-decoration: none;
+  color: beige;
 }
 
-.HOME {
-  background-color:transparent;
-  display:inline-block;
-  cursor:pointer;
-  /*color:#666666;*/
-  font-family:'Helvetica Neue';
-  font-size:20px;
-  padding:6px 24px;
-  text-decoration:none;
+.links{
+  padding-bottom: 30px;
+  border-bottom: 20px;
 }
-.HOME:hover {
-  background-color:transparent;
-}
-.HOME:active {
-  position:relative;
-  top:1px;
+
+.links a:hover {
+
+  color: dimgrey;
+  border-top: 3px solid beige;
+  text-decoration: none;
+  padding-top: 4vh;
+
 }
 
 #social{
   text-align: center;
   vertical-align: center;
-  padding-bottom: 20px
 }
 .fa {
   margin-right: 5px;
   margin-left: 5px;
+  padding-bottom: 4vh;
 }
 
 #projects {
@@ -160,6 +164,21 @@ li {
   width: 1725px;
   margin-top: -1em;
   margin-right: 3em;
+
+}
+
+#email {
+
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  font-color: blue;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 50px;
+  margin: 1vw;
+  padding-bottom: 1vw;
+  letter-spacing: 1px;
 
 }
 
@@ -175,6 +194,36 @@ li {
 #PojectPicTitles {
   color: beige;
   }
+
+  #skills {
+    background-image: url('LAB.jpg');
+    height: 950px;
+    width: 1725px;
+    margin-top: -1em;
+    margin-right: 3em;
+  }
+
+  .social {
+
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 10vmax;
+    width: 10vmax;
+    opacity: .6;
+
+  }
+
+  .social:hover {
+    opacity: 1;
+  }
+
+#contact {
+  background-image: url('payphone.jpg');
+  height: 950px;
+  width: 1725px;
+  margin-top: -1em;
+  margin-right: 3em;
+}
 
 .row-fluid{
 	
