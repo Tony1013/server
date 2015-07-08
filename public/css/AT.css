@@ -33,7 +33,7 @@ intro {
 }
 
 h1 {
-  padding-top: 7vw;
+  padding-top: 10vw;
   margin: 1vw;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 80px;
@@ -69,7 +69,7 @@ h3 {
   vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0
+  margin-top: 1vw;
   padding-top: 25px;
   padding-right: 50px;
   padding-bottom: 25px;
@@ -82,7 +82,7 @@ h3 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 100;
   max-width: 100%;
-  margin: 0;
+  margin: 1vw;
   text-align: center;
   color: beige;
   vertical-align: middle;
@@ -107,18 +107,18 @@ h3 {
   margin-top: 0
   padding-top: 0px;
   padding-right: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 4px;
   padding-left: 0px;
 
 }
 
-ul {
+/*ul {
   border-top: 1px solid beige;
   padding-top: 43px;
   width: 40%;
   margin: 0 auto;
 
-}
+}*/
 
 li {
   display: inline;
@@ -141,10 +141,11 @@ a {
 
 .links a:hover {
 
-  color: dimgrey;
+  color: darkslategrey;
   border-top: 3px solid beige;
   text-decoration: none;
-  padding-top: 4vh;
+  padding-top: 1vh;
+  font-weight: 300;
 
 }
 
@@ -191,7 +192,7 @@ a {
 
 }
 
-#PojectPicTitles {
+#ProjectPicTitles {
   color: beige;
   }
 
