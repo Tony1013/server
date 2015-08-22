@@ -30,6 +30,7 @@ intro {
   /* these will reset other properties, like background-position, but it does know what you mean */
   background: wheat;
   background: linear-gradient(darkslategrey, grey);
+
 }
 
 h1 {
@@ -43,7 +44,7 @@ h1 {
   line-height: 50px;
   color: beige;
   letter-spacing: 1px;
-  
+
 }
 
 h3 {
@@ -125,7 +126,7 @@ li {
   width: 658px;
     padding: 35px;
     border: 5px;
-    margin: 0; 
+    margin: 0;
 
 }
 
@@ -227,6 +228,6 @@ a {
 }
 
 .row-fluid{
-	
+
 	width: 100%;
 }
